@@ -1,0 +1,76 @@
+#titulo {
+    background-image: url(Banner.png);
+	color: white;
+	padding: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+    border-radius: 5px;
+    font-family: Courier New;
+    font-size: 80px;
+}
+
+#menu {
+    list-style: none;
+    padding: 2px;
+    background-color: #444444;
+    overflow: hidden;
+    border-radius: 5px;
+    border-top: 3px solid rgb(146, 179, 0);
+    width: 343px;
+    margin: 0 auto;
+}
+
+#menu-item {
+    float: left;
+    color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+}
+
+#menu-item a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu-item:hover {
+    background-color: #292929;
+}
+
+.contato span {
+    color: white;
+    font-size: 20px;
+}
+
+#pet {
+    color: rgb(223, 223, 223);
+}
+
+.rodape {
+    background-color: #646464;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    border-top: 3px solid rgb(146, 179, 0);
+}
+
+.rodape a {
+    color: rgb(146, 179, 0);
+}
+
+.rodape a:hover {
+    color: rgb(106, 129, 1);
+    text-decoration: underline;
+}
+
+.email {
+    font-size: 18px;
+}
+
+#local {
+    color: rgb(233, 233, 233);
+    font-size: 20px;
+}
